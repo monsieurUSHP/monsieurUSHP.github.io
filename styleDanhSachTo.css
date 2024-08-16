@@ -1,0 +1,41 @@
+﻿body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 60%;
+    margin: 50px auto;
+    background-color: #ffffff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+    ul li {
+        background: #e4e4e4;
+        margin: 10px 0;
+        padding: 10px;
+        border-radius: 5px;
+        text-align: center;
+    }
+
+        ul li a {
+            color: #007bff;
+            text-decoration: none;
+        }
+
+            ul li a:hover {
+                text-decoration: underline;
+            }

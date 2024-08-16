@@ -1,0 +1,53 @@
+﻿body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center; /* Canh giữa nội dung */
+}
+
+h1 {
+    color: #555;
+}
+
+.profile-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%; /* Làm cho ảnh tròn */
+    overflow: hidden;
+    margin: 0 auto 20px; /* Canh giữa và thêm khoảng cách dưới */
+    border: 5px solid #ddd; /* Thêm khung cho ảnh */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Thêm hiệu ứng bóng cho ảnh */
+}
+
+    .profile-image img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover; /* Đảm bảo ảnh bao phủ toàn bộ khung tròn */
+    }
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: left; /* Canh trái danh sách */
+    display: inline-block; /* Giữ danh sách trong khung giữa */
+}
+
+    ul li {
+        margin-bottom: 10px;
+    }
+
+.social-links a {
+    text-decoration: none;
+    color: #3b5998;
+    font-weight: bold;
+}
